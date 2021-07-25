@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pochinki.teoriabase;
+package co.edu.udea.udea_ruta2_ciclo2;
 
-/**
- *
- * @author pochinki
- */
-public class OperadoresBasicos {
-   public static void main (String[] args) {
+public class ClaseOperadores {
+    public static void main (String[] args) {
         int resultado = 1 + 2;
         // resultado es ahora 3
         System.out.println("1 + 2 = " + resultado);
@@ -78,7 +69,6 @@ public class OperadoresBasicos {
         if((valor1 == 1) && (valor2 == 2))
             System.out.println("valor1 es 1 AND valor2 es 2");
         if((valor1 == 1) || (valor2 == 1))
-            System.out.println("valor1 es 1 OR valor2 es 1");        
+            System.out.println("valor1 es 1 OR valor2 es 1");
     }
-}      
-
+}

@@ -1,4 +1,4 @@
-package Arreglos;
+package pochinki.teoriabase;
 import java.util.Arrays; // se debe importar para utilizar Arrays.copyOf
 /**
  *
