@@ -10,14 +10,14 @@ package pochinki.holamundo;
  * @author niret
  */
 import java.util.Scanner;
-public class Factorial {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int numero = sc.nextInt();
-        int factorial = 1;
-            while ( numero!=0) {
-                factorial= factorial*numero;
-                numero--;
+    public class Factorial {
+        public static void main(String[] args) {
+            long factorial = 1;
+            int num ;
+            Scanner numero = new Scanner(System.in);
+            num =  numero.nextInt();
+                           for (int i=num; i>0; i--) {
+                   factorial = factorial * i;
             }
             System.out.println(factorial);
         }
