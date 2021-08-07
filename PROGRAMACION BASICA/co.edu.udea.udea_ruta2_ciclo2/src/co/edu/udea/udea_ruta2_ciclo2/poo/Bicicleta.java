@@ -5,17 +5,20 @@ public class Bicicleta {
     private String marca;
     private String color;
     private double velocidad;
+    public static int bicicletasCreadas = 0;
 
     public Bicicleta() {
         this.marca = "GW";
         this.color = "gris";
         this.velocidad = 0;
+        bicicletasCreadas++;
     }
 
     public Bicicleta(String marca, String color, double velocidadInicial) {
         this.marca = marca;
         this.color = color;
         velocidad = velocidadInicial;
+        bicicletasCreadas++;
     }
 
     public String getMarca() {
@@ -55,11 +58,9 @@ public class Bicicleta {
     }
 
     public void frenar(String intensidad) {
-        if (intensidad.equals("fuerte")) {
-            if (this.velocidad > 10) {
-                this.velocidad = this.velocidad - 10;
-            }
-        } else {
+        if (intensidad.equals("fuerte") && this.velocidad > 10) {
+            this.velocidad = this.velocidad - 10;            
+        }else {
             if (this.velocidad > 0) {
                 this.velocidad--;
             }
