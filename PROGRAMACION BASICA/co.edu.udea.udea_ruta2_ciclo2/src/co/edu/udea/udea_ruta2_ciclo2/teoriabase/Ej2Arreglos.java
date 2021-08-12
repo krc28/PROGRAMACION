@@ -1,4 +1,4 @@
-package pochinki.teoriabase;
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 import java.util.Arrays; // se debe importar para utilizar Arrays.copyOf
 /**
  *

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pochinki.teoriabase;
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 
 /**
  *

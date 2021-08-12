@@ -1,4 +1,4 @@
-package co.edu.udea.udea_ruta2_ciclo2;
+package co.edu.udea.udea_ruta2_ciclo2.array;
 
 public class ClaseOperadores {
     public static void main (String[] args) {

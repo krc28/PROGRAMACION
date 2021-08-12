@@ -1,4 +1,4 @@
-package Arreglos;
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 
 public class Ej1Arreglos {
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Semana3;
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Semana3;
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 
 /**
  *
