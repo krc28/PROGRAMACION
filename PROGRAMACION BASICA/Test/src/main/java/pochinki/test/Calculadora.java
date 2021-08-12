@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Test;
+package pochinki.test;
 
 /**
  *
  * @author niret
  */
 public class Calculadora {
-    public Double cuadrado(Double numero) {
+   public Double cuadrado(Double numero) {
         return numero * numero;
     }
 

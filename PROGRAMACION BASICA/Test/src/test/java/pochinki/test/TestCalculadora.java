@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Test;
+package pochinki.test;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 /**
@@ -11,7 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author niret
  */
 public class TestCalculadora {
-
     //Pruebas unitarias para el cuadrado
     @Test
     public void testCuadradoPositivo() {
