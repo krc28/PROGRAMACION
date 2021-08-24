@@ -1,3 +1,4 @@
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 public class Enemigo extends Personaje {
     //              ^ (Enemigo hereda de Personaje)
     //Inserte acá los atributos
@@ -20,13 +21,13 @@ public class Enemigo extends Personaje {
     public void evolucionar(){
         if ((this.vida <= 30.0) && (this.evolucionesAplicadas == 0)){
             this.damage += 20.0;
-            this.evolucionesAplicadas += 1;
-            } else if((this.vida <= 10.0) && (this.evolucionesAplicadas == 1)){
-            this.resistencia += 1;
-            this.evolucionesAplicadas += 1; 
+            this.evolucionesAplicadas  +=1;}
+        if ((this.vida <= 10.0) && (this.evolucionesAplicadas == 1)){
+            this.resistencia  +=1;
+            this.evolucionesAplicadas  +=1; 
             }
         }
-        
+    
     public void recibirImpacto(double d){
         if ((this.vida - (d / resistencia)) < 0){
             this.vida = 0.0;

@@ -1,3 +1,4 @@
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 public class Jugador extends Personaje{
     //              ^ (Jugador hereda de Personaje)
     //Inserte acá los atributos

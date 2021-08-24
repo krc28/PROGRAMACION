@@ -1,3 +1,4 @@
+package co.edu.udea.udea_ruta2_ciclo2.teoriabase;
 public class Personaje {
     //Inserte acá los atributos
     private String nombre;
