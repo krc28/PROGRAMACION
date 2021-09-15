@@ -3,32 +3,20 @@ package pochinki.tata;
  *@author Katerin Restrepo Cano
  * cc.1017248147
  */
-public class Empleados {
+public abstract class Empleados {
     private String nombre;
     private int edad;
     private int salario;
     private int bonificacion;
 
-    public Empleados(){
-        this.nombre = "";
-        this.edad = 0;
-        this.salario = 0;
-        this.bonificacion = 0;
-    }
-    
-    public Empleados(String nombre, int edad, int salario, int bonificacion){
+    public Empleados(String nombre, int edad, int salario){
         this.nombre = nombre;
         this.edad = edad;
         this.salario = salario;
-        this.bonificacion = bonificacion;
-        } 
+        this.bonificacion = 0;
+    } 
   
-    public void bonificar(){
-        System.out.println("");
-    }
-     
-    
-    
+    public abstract String bonificar();
     
     public String getNombre(){
         return nombre;

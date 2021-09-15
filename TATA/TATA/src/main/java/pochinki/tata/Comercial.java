@@ -1,35 +1,35 @@
 package pochinki.tata;
+
 /**
- *@author Katerin Restrepo Cano
- * cc.1017248147
+ * @author Katerin Restrepo Cano cc.1017248147
  */
 public class Comercial extends Empleados {
+
     private int comision;
-    
-    public Comercial(){
-        super();
-        this.comision = 0;
-    }
-    
-    public Comercial(int comision, String nombre, int edad, int salario, int bonificacion){
-        super(nombre, edad, salario, bonificacion);
+
+    public Comercial(String nombre, int edad, int salario,int comision) {
+        super(nombre, edad, salario);
+        this.comision = comision;
     }
 
     @Override
-    public void bonificar(){
-        if (super.getEdad() > 30 && comision > 400000){
-            super.setBonificacion(150000);
-            System.out.println("Bonificación aplicada");
-            }           
+    public String bonificar() {
+        String respuesta;
+        if (this.getEdad() > 30 && this.comision > 400000) {
+            this.setBonificacion(150000);
+            respuesta = "Bonificación aplicada de:" + this.getBonificacion();
+        } else {
+            respuesta = "Bonificación no aplicada";
         }
-    
-    public int getComision(){
-        return comision;
-        }
-    
-    public void setComision(int comision){
-        this.comision = comision;
-        }
+        System.out.println(respuesta);
+        return respuesta;
     }
 
+    public int getComision() {
+        return comision;
+    }
 
+    public void setComision(int comision) {
+        this.comision = comision;
+    }
+}

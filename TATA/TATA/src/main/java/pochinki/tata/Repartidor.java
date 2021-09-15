@@ -1,34 +1,35 @@
 package pochinki.tata;
+
 /**
- *@author Katerin Restrepo Cano
- * cc.1017248147
+ * @author Katerin Restrepo Cano cc.1017248147
  */
 public class Repartidor extends Empleados {
+
     private String zona;
-    
-    public Repartidor(){
-        super();
-        this.zona = "3";
+
+    public Repartidor(String nombre, int edad, int salario,String zona) {
+        super(nombre, edad, salario);
+        this.zona=zona;
     }
-    
-    public Repartidor(String zona, String nombre, int edad, int salario, int bonificacion){
-        super(nombre, edad, salario, bonificacion);
-    }
-    
+
     @Override
-    public void bonificar(){
-        if (super.getEdad() < 25 && zona.equals(this.zona)){
-            super.setBonificacion(150000);
-            System.out.println("Bonificación aplicada");
-            } else{
-                System.out.println("Bonificación no aplicada");}           
+    public String bonificar() {
+        String respuesta;
+        if (this.getEdad() < 25 && this.zona.equals("zona 3")) {
+            this.setBonificacion(150000);
+            respuesta = "Bonificación aplicada de:" + this.getBonificacion();
+        } else {
+            respuesta = "Bonificación no aplicada";
         }
-    
-    public String getZona(){
+        System.out.println(respuesta);
+        return respuesta;
+    }
+
+    public String getZona() {
         return zona;
     }
-    
-    public void setZona(String zona){
+
+    public void setZona(String zona) {
         this.zona = zona;
     }
 }
