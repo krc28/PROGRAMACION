@@ -1,2 +1,5 @@
 Nombre;Edad;Salario;Bonificacion;Comision;Zona
-Test;34;3456;0;45;
+juan;34;200000;150000;450000;
+paola;25;200000;0;300000;
+lola;25;200000;0;;zona 4
+lola;21;200000;150000;;zona 3
