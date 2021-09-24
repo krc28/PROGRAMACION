@@ -171,3 +171,152 @@ pixeles (200) o porcentaje (20%). Este atributo también se
 puede aplicar a las celdas <td>.
 • height =”n”. El valor n define la altura de la celda en pixeles
 o porcentaje.
+
+"----------------------------------------JAVASCRIPT-------------------------------------------------
+"Para hacer que un documento HTML incluya instrucciones de JavaScript, usamos la etiqueta <script>
+<script language= “JavaScript”>
+ Código aquí de JavaScript
+</script>
+
+• También se puede utilizar el código JavaScript escrito en un archivo separado
+<script language= “JavaScript” src=“archivo.js”>
+
+"Variables
+• Cadenas de texto: “Prueba”, ‘prueba’
+• Valores numéricos: 1, -100, 1.68, 2.1E2
+• Valores booleanos: true o false
+"Declarar variable
+     var myvar = newvalue;
+                Ó
+     myvar=newvalue
+
+"• JS permite que una variable pueda almacenar diferentes
+tipos de datos:                   && AND (Y lógico)
+test=12.3;                        II OR (O lógico)
+test=“otro valor”;                ! NOT (NO lógico)
+
+"• Instrucción if: Realiza un condicional lógico:
+if (condición){
+ ..código que se ejecuta si la condición es verdadera
+ }else{
+ …código que se ejecuta si la condición es falsa
+}
+
+"• Bucle while: es una estructura de programación que permite repetir sentencias hasta que se cumpla
+"determinada condición:
+ while (condición){
+ ..código que se repite mientras la condición se cumpla
+ }
+ var x=1
+ while(x<11){
+ document.write(x, “ “);
+ x++;
+}
+// sale 1 2 3 4 5 6 7 8 9 10
+
+"• Bucle for: permite ejecutar una serie de sentencias hasta que se cumple una determinada condición:
+ for (valor inicial; condición, actualización){
+ ..código que se repite mientras la condición se cumpla
+ }
+ for (x=1;x<11;x++){
+ document.write(x, “ “);
+ x++;
+}
+// sale 1 2 3 4 5 6 7 8 9 10
+
+"• Instrucción switch: permite tener control sobre las condiciones:
+ switch (variable_de_analisis){
+ case valor1: …instrucciones
+ case valor2: …instrucciones
+ ….
+ default: instrucciones
+ }
+ var x=13;
+ switch (x){
+ case 4: document.write(“valor cuatro”); break;
+ case 13: document.write(“valor doce”); break;
+ default: document.write(“No es ningún valor”);}
+
+ "• Funciones: son una serie de instrucciones que realizan una determinada tarea. 
+ "Tienen un nombre que luego puede ser usado en el código de la página. Antes de ser usada una
+"función, se debe definir:
+ function nombre_funcion (argumento1, argumento2, …){
+ …instrucciones que debe realizar la función
+}
+function error(){
+ document.write(“<b> Ocurrió un error</b><br>”);
+ }
+
+"• Funciones: Otro ejemplo
+<HTML>
+ <HEAD>
+ <TITLE>Titulo </TITLE>
+ <SCRIPT LANGUAGE=‘JavaScript’>
+ function multiplicar(valor){
+ return valor * 2;
+ }
+ </SCRIPT>
+ <BODY>
+ <SCRIPT LANGUAGE=‘JavaScript’>
+ document.write(“El doble de 100 es
+“ , multipicar(100) );
+ </SCRIPT>
+ </BODY>
+</HTML>
+
+"• alert: es la estructura más utilizada. Presenta un mensaje por pantalla que solo deja la 
+"posibilidad de aceptar:
+ alert (Texto_del_mensaje) ;
+
+"• prompt: es una venta que solicita ingresar datos de usuario.
+"Devuelve un valor que se puede usar en el código. Posee dos botones: Aceptar y Cancelar:
+ respuesta=prompt (Texto_del_mensaje, valor_por_defecto);
+
+ "----------------------------------------TYPESCRIPT--------------------------------------
+ "• TIPOS DE DECLARACIONES. Se puede agregar declaraciones de tipo a:
+• Variables
+• Parámetros de función
+• Tipos de retorno de función
+• Los tipos se escriben después de dos puntos luego del
+nombre de la variable, p. e: 
+               var num: number = 5;
+
+"TIPOS DE DECLARACIONES BASICOS
+• number
+
+• string
+
+• boolean.
+
+• array (dos formas)
+               *Array<T>. Ejemplo: Array<string> arreglo de strings
+               *T[ ]. Ejemplo: number[] array de números
+
+• tuplas (se tiene un número fijo de elementos con tipo específico)
+               *[boolean, string]: tupla en la que el primer elemento es booleano y el segundo es un string.
+               *[number, number, number]: tupla con tres números.
+
+• { } object (se pueden definir sus propiedades o indexar)
+               *{name: string, age: number}: objeto con name y age como atributos.
+               *{[key: string]: number}: dicccionario de números indexado como string.
+
+• enum (permite definir un conjunto de constantes con nombre)
+               *enum {Red=0, Blue, Green}
+               *enum Direction { Up = 1, Down, Left, Right,}
+
+"CLASS
+• TypeScript ofrece un soporte a las clases, al igual que con otras funciones del lenguaje JavaScript.
+• TypeScript agrega anotaciones de tipo y otra sintaxis para permitirle expresar relaciones
+entre clases y otros tipos.
+
+          *Ejemplo de clase
+          class Point {
+          x: number;
+          y: number;
+          }
+
+          *Instanciación de la clase
+          const pt = new Point();
+          pt.x = 0;
+          pt.y = 0;
+
