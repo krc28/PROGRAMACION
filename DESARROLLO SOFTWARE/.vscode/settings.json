@@ -8,10 +8,13 @@
         "especialidad",
         "fechaingreso",
         "formulario",
+        "Gestion",
         "imagen",
         "nombre",
+        "pagina",
         "subtitulo",
         "textos",
-        "titulo"
+        "titulo",
+        "Vendedor"
     ]
 }

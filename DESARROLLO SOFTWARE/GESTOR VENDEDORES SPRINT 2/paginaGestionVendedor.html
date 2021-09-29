@@ -10,24 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> 
+    <form action="paginaGestionVendedor.html" class="form-box animate__animated animate__pulse">   
     <main class="contenedor">
         <div class="contenedor-textos">
             <h1 class= "titulo">¡Este es tu módulo para la Gestión de Vendedores</h1>
-            <h2 class= "subtitulo">Ingrese la información básica de los vendedores que participan en un negocio de ventas</h2>
-            <a href="#" class= "botonnuevovendedor">Ingresar nuevo vendedor</a>
-        </div>
+            <h2 class= "subtitulo">Ingrese la información básica de los vendedores que participan en un negocio de ventas</h2>            
+            <button type="submit" class="botonnuevovendedor">Ingresar nuevo vendedor</button>
+        </div>       
         <div class="contenedor-formulario">
             <h1 class="ID">Identificador único del vendedor</h1>
-            <h2 class="sub">Ingrese el identificador (id) único del vendedor</h2>
+            <input type="number" class="sub" placeholder="Ingrese el identificador (id) único del vendedor">            
             <h1 class="nombre">Nombre completo</h1>
-            <h2 class="sub1">Escribe el nombre completo del vendedor</h2>
+            <input type="text" class="sub1" placeholder="Escribe el nombre completo del vendedor">            
             <h1 class="especialidad">Especialidad</h1>
-            <h2 class="sub2">Escribe la especialidad del vendedor</h2>
+            <input type="text" class="sub2" placeholder="Escribe la especialidad del vendedor">            
             <h1 class="celular">Número de celular</h1>
-            <h2 class="sub3">Ingrese el número de celular del vendedor</h2>
+            <input type="number" class="sub3" placeholder="Ingrese el número de celular del vendedor">            
             <h1 class="fechaingreso">Fecha de ingreso</h1>
-            <h2 class="sub4">Escribe la fecha de ingreso del vendedor</h2>            
+            <input type="date" class="sub4" placeholder="Escribe la fecha de ingreso del vendedor">                      
         </div>
         <div class="contenedor-imagen">
             <img src="ilustraciones/imagen.svg" alt="" class="img">
@@ -35,5 +36,6 @@
         <img src="ilustraciones/vector.svg" alt="" class="vector">
 
     </main>
+    </form>
 </body>
 </html>
