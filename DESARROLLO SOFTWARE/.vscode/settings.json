@@ -1,12 +1,17 @@
 {
     "cSpell.words": [
+        "Admon",
         "boton",
         "botonnuevaventa",
         "botonnuevovendedor",
         "celular",
         "contenedor",
+        "descripcion",
+        "encargado",
         "especialidad",
+        "fechafutura",
         "fechaingreso",
+        "fechainicial",
         "formulario",
         "Gestion",
         "imagen",
@@ -15,6 +20,7 @@
         "subtitulo",
         "textos",
         "titulo",
+        "valortotal",
         "Vendedor"
     ]
 }
