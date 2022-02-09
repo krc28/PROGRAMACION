@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="149c91e2-ce5b-4411-8482-32bfc48e0cf0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zmPKpvoDqxH8dFGg2O3Ef7OW7v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1742718\OneDrive - TCS COM PROD\BackUp\2- INTERNAL TCS\Capacitaciones_y_Semilleros\Semilleros\S17\CucumberBDD" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CrearCuenta" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;runners.CrearCuenta&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CrearCuenta" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="149c91e2-ce5b-4411-8482-32bfc48e0cf0" name="Default Changelist" comment="" />
+      <created>1634750228436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634750228436</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634824199792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1634824199792" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1634836207365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1634836207365" />
+    <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1634819702678">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1634819702678" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1634834317768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634834317768" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1634834317767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634834317767" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1634834317767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634834317767" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1634834317768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634834317768" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1634821821085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634821821085" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1634821821085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1634821821085" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1634821821085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1634821821085" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1634821821085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1634821821085" />
+    <state x="244" y="110" key="SettingsEditor" timestamp="1634818632133">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="244" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1634818632133" />
+    <state x="521" y="334" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1634830908418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="521" y="334" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1634830908418" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1634834288921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1634834288921" />
+  </component>
+</project>

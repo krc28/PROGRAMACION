@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="as a user I want to create an account on the advantage page" skipped="0" tests="3" time="47.72" timestamp="2021-10-26 06:30:02"><testcase name="account created failed"><failure message="&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;</failure><system-err>
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;&#13;
+co.com.tcs.certification.advantage.stepdefinitions.CreateAccountStepDefinitions.theUserWillWatchTheRegisterButtonDisabled(CreateAccountStepDefinitions.java:59)&#13;
+✽.the user will watch the register button disabled(src/test/resources/features/create_account.feature:20)&#13;
+</system-err></testcase></testsuite>

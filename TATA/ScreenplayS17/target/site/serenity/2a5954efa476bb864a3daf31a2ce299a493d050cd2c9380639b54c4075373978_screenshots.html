@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a6df721cd09563c096f3501493e6be693601b18a090d90efbdfc808d0a4a5059.html">As A User I Want To Create An Account On The Advantage Page</a></span>
+                > <span class="truncate-60"><a
+                    href="2a5954efa476bb864a3daf31a2ce299a493d050cd2c9380639b54c4075373978.html">account created failed </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-10-2021 18:30</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As A User I Want To Create An Account On The Advantage Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e6096d102190ed3c659cb12727805d4c5aa799a65aa2001405d42aac39a40f23.html">Buttondisabled
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">account created failed
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user is on the main page<br>And the user goes to the register form<br>When the user enters its information<br><table class='embedded'><thead><th>username</th><th>email</th><th>password</th><th>confirmPassword</th><th>firstName</th><th>lastName</th><th>phone</th><th>country</th><th>city</th><th>address</th><th>region</th><th>code</th></thead><tbody><tr><td>&lt;username&gt;</td><td>&lt;email&gt;</td><td>&lt;password&gt;</td><td>&lt;confirmPassword&gt;</td><td>&lt;firstName&gt;</td><td>&lt;lastName&gt;</td><td>&lt;phone&gt;</td><td>&lt;country&gt;</td><td>&lt;city&gt;</td><td>&lt;address&gt;</td><td>&lt;region&gt;</td><td>&lt;code&gt;</td></tr></tbody></table><br>Then the user will watch the register button disabled</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: is (false) but: was (true)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.tcs.certification.advantage.stepdefinitions.CreateAccountStepDefinitions.theUserWillWatchTheRegisterButtonDisabled(CreateAccountStepDefinitions.java:59)<br />✽.the user will watch the register button disabled(src/test/resources/features/create_account.feature:20)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7949322008734702148.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" Example #1: {username=, email=, password=12345Aa., confirmPassword=12345Aa., firstName=Santi, lastName=Gomez, phone=555 55 55, country=Denmark, city=Medellin, address=cra 27, region=oeste, code=12345}" width="1920"/>
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" Given the user is on the main page" width="1920"/>
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" Santiago opens the https://www.advantageonlineshopping.com/#/" width="1920"/>
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" Given the user is on the main page (completed)" width="1920"/>
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" And the user goes to the register form" width="1920"/>
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" Santiago access form" width="1920"/>
+                <img src="aef01e10bef36255fbfd96d5c2927a30c404516c1df6e36dee0685165fce61ad.png" title=" Santiago clicks on login button" width="1920"/>
+                <img src="5e8be6704d907d6bef382d21932182d2fef3d06132400a59bbd0901b52aa5326.png" title=" Santiago clicks on login button (completed)" width="1920"/>
+                <img src="18a55994f904ff292ce46b02c5cdc434a3e7d4bce575fcea895b2146e48ad358.png" title=" Santiago clicks on create account button" width="1920"/>
+                <img src="d5feb5655e9f0c9fd6269dad667da490438c30f8d6ccf0a2438706d72a242f45.png" title=" Santiago clicks on create account button (completed)" width="1920"/>
+                <img src="d5feb5655e9f0c9fd6269dad667da490438c30f8d6ccf0a2438706d72a242f45.png" title=" Santiago access form (completed)" width="1920"/>
+                <img src="d5feb5655e9f0c9fd6269dad667da490438c30f8d6ccf0a2438706d72a242f45.png" title=" And the user goes to the register form (completed)" width="1920"/>
+                <img src="d5feb5655e9f0c9fd6269dad667da490438c30f8d6ccf0a2438706d72a242f45.png" title=" When the user enters its information
+| username | email | password | confirmPassword | firstName | lastName | phone | country | city | address | region | code |
+|  |  | 12345Aa. | 12345Aa. | Santi | Gomez | 555 55 55 | Denmark | Medellin | cra 27 | oeste | 12345 |" width="1920"/>
+                <img src="d5feb5655e9f0c9fd6269dad667da490438c30f8d6ccf0a2438706d72a242f45.png" title=" Santiago enters information" width="1920"/>
+                <img src="d5feb5655e9f0c9fd6269dad667da490438c30f8d6ccf0a2438706d72a242f45.png" title=" Santiago enters '' into username field" width="1920"/>
+                <img src="45d8d193289688f0846f4393067ba27ee68d67a55cc5aca3072ba4f0a3034dd2.png" title=" Santiago enters '' into username field (completed)" width="1920"/>
+                <img src="45d8d193289688f0846f4393067ba27ee68d67a55cc5aca3072ba4f0a3034dd2.png" title=" Santiago enters '' into field email" width="1920"/>
+                <img src="f4986a25f8188b2e3fbf67f673516808eba667a561015c01db048a759c07d522.png" title=" Santiago enters '' into field email (completed)" width="1920"/>
+                <img src="f4986a25f8188b2e3fbf67f673516808eba667a561015c01db048a759c07d522.png" title=" Santiago enters '12345Aa.' into field password" width="1920"/>
+                <img src="d17e50175700c1d16dba92626dd2ac3cfd331fded3d83492a89f01729f07ea9f.png" title=" Santiago enters '12345Aa.' into field password (completed)" width="1920"/>
+                <img src="d17e50175700c1d16dba92626dd2ac3cfd331fded3d83492a89f01729f07ea9f.png" title=" Santiago enters '12345Aa.' into field confirm password" width="1920"/>
+                <img src="05284fc02c9d96754e5f6a76674a029ea3b4611dc5d1ab10d2227d603142ed3c.png" title=" Santiago enters '12345Aa.' into field confirm password (completed)" width="1920"/>
+                <img src="05284fc02c9d96754e5f6a76674a029ea3b4611dc5d1ab10d2227d603142ed3c.png" title=" Santiago enters 'Santi' into field firstname" width="1920"/>
+                <img src="fa222f15028d0074c5eeffa221aea62bf28e1ba755683e6a7d1788e1d01ff6a5.png" title=" Santiago enters 'Santi' into field firstname (completed)" width="1920"/>
+                <img src="fa222f15028d0074c5eeffa221aea62bf28e1ba755683e6a7d1788e1d01ff6a5.png" title=" Santiago enters 'Gomez' into field lastname" width="1920"/>
+                <img src="b662edd66f14fe03a6acbd2f7ca7131da8b5be21070b5462ef3e1025a45aac2a.png" title=" Santiago enters 'Gomez' into field lastname (completed)" width="1920"/>
+                <img src="b662edd66f14fe03a6acbd2f7ca7131da8b5be21070b5462ef3e1025a45aac2a.png" title=" Santiago enters '555 55 55' into field phone" width="1920"/>
+                <img src="1581ea52e55ef43b567ff0f8a054bd1db4f9edfb6120dd9f505d3d2a13e22689.png" title=" Santiago enters '555 55 55' into field phone (completed)" width="1920"/>
+                <img src="1581ea52e55ef43b567ff0f8a054bd1db4f9edfb6120dd9f505d3d2a13e22689.png" title=" Santiago select Denmark on field country" width="1920"/>
+                <img src="719eef369ff28b8290e93c79e230818dc4d47b072506879cea462bd9ee777360.png" title=" Santiago select Denmark on field country (completed)" width="1920"/>
+                <img src="719eef369ff28b8290e93c79e230818dc4d47b072506879cea462bd9ee777360.png" title=" Santiago enters 'Medellin' into field city" width="1920"/>
+                <img src="bc97ab7ef49fd10fb9b7b9ea44ebb793bf21493bda8b6e94ed883769a23fb457.png" title=" Santiago enters 'Medellin' into field city (completed)" width="1920"/>
+                <img src="bc97ab7ef49fd10fb9b7b9ea44ebb793bf21493bda8b6e94ed883769a23fb457.png" title=" Santiago enters 'cra 27' into field address" width="1920"/>
+                <img src="d9091729ec82bcdabf00d097753c0b25f72d5540d23430e98e9116d304a76734.png" title=" Santiago enters 'cra 27' into field address (completed)" width="1920"/>
+                <img src="d9091729ec82bcdabf00d097753c0b25f72d5540d23430e98e9116d304a76734.png" title=" Santiago enters 'oeste' into field region" width="1920"/>
+                <img src="da7c89088439453f7be63ffde60841585ec0db973eead2fd91c804600c9f25c5.png" title=" Santiago enters 'oeste' into field region (completed)" width="1920"/>
+                <img src="da7c89088439453f7be63ffde60841585ec0db973eead2fd91c804600c9f25c5.png" title=" Santiago enters '12345' into field code" width="1920"/>
+                <img src="6c70bce6b4d34e35daf2406ddee28abc5ae1f6a0561966336eeb1148b833fd77.png" title=" Santiago enters '12345' into field code (completed)" width="1920"/>
+                <img src="6c70bce6b4d34e35daf2406ddee28abc5ae1f6a0561966336eeb1148b833fd77.png" title=" Santiago clicks on check for conditions" width="1920"/>
+                <img src="443aa1fabbb95cf1cf29211c00e33e1e1e99db5a5fd1b172d041eea381a699d1.png" title=" Santiago clicks on check for conditions (completed)" width="1920"/>
+                <img src="443aa1fabbb95cf1cf29211c00e33e1e1e99db5a5fd1b172d041eea381a699d1.png" title=" Santiago enters information (completed)" width="1920"/>
+                <img src="443aa1fabbb95cf1cf29211c00e33e1e1e99db5a5fd1b172d041eea381a699d1.png" title=" When the user enters its information
+| username | email | password | confirmPassword | firstName | lastName | phone | country | city | address | region | code |
+|  |  | 12345Aa. | 12345Aa. | Santi | Gomez | 555 55 55 | Denmark | Medellin | cra 27 | oeste | 12345 | (completed)" width="1920"/>
+                <img src="443aa1fabbb95cf1cf29211c00e33e1e1e99db5a5fd1b172d041eea381a699d1.png" title=" Then the user will watch the register button disabled" width="1920"/>
+                <img src="dfc9546a19b363677cc35d1b1fec46d5c377e0f882fbe7276705d6bc9d0a4a9d.png" title=" Then validate state button should be (false)" width="1920"/>
+                <img src="dfc9546a19b363677cc35d1b1fec46d5c377e0f882fbe7276705d6bc9d0a4a9d.png" title=" Then validate state button should be (false) (completed)" width="1920"/>
+                <img src="dfc9546a19b363677cc35d1b1fec46d5c377e0f882fbe7276705d6bc9d0a4a9d.png" title=" Then the user will watch the register button disabled (completed)" width="1920"/>
+                <img src="dfc9546a19b363677cc35d1b1fec46d5c377e0f882fbe7276705d6bc9d0a4a9d.png" title=" Example #1: {username=, email=, password=12345Aa., confirmPassword=12345Aa., firstName=Santi, lastName=Gomez, phone=555 55 55, country=Denmark, city=Medellin, address=cra 27, region=oeste, code=12345} (completed)" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Example #2: {username=Santi, email=santiago@gmail.com, password=12345Aa., confirmPassword=12345Aa., firstName=, lastName=, phone=555 55 55, country=Denmark, city=Medellin, address=cra 27, region=oeste, code=12345}" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Given the user is on the main page" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Santiago opens the https://www.advantageonlineshopping.com/#/" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Given the user is on the main page (completed)" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" And the user goes to the register form" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Santiago access form" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Santiago clicks on login button" width="1920"/>
+                <img src="d9e2019e623d3bb9ddc4c93e6d12e76bd438e26f43082ded865b2bf289ec15b2.png" title=" Santiago clicks on login button (completed)" width="1920"/>
+                <img src="0e317ea3a417c11e9d155c9c4ab3171fd1531347f290b7968e0dcc8106af217a.png" title=" Santiago clicks on create account button" width="1920"/>
+                <img src="b165473504ff381e6ba3ef4674e207b6698eff1770df056c0aeb035e0744086b.png" title=" Santiago clicks on create account button (completed)" width="1920"/>
+                <img src="b165473504ff381e6ba3ef4674e207b6698eff1770df056c0aeb035e0744086b.png" title=" Santiago access form (completed)" width="1920"/>
+                <img src="b165473504ff381e6ba3ef4674e207b6698eff1770df056c0aeb035e0744086b.png" title=" And the user goes to the register form (completed)" width="1920"/>
+                <img src="b165473504ff381e6ba3ef4674e207b6698eff1770df056c0aeb035e0744086b.png" title=" When the user enters its information
+| username | email | password | confirmPassword | firstName | lastName | phone | country | city | address | region | code |
+| Santi | santiago@gmail.com | 12345Aa. | 12345Aa. |  |  | 555 55 55 | Denmark | Medellin | cra 27 | oeste | 12345 |" width="1920"/>
+                <img src="b165473504ff381e6ba3ef4674e207b6698eff1770df056c0aeb035e0744086b.png" title=" Santiago enters information" width="1920"/>
+                <img src="b165473504ff381e6ba3ef4674e207b6698eff1770df056c0aeb035e0744086b.png" title=" Santiago enters 'Santi' into username field" width="1920"/>
+                <img src="f63d378b9a6e706408c1db100dd63d302800ada9a88ec1643cad258acd319b04.png" title=" Santiago enters 'Santi' into username field (completed)" width="1920"/>
+                <img src="f63d378b9a6e706408c1db100dd63d302800ada9a88ec1643cad258acd319b04.png" title=" Santiago enters 'santiago@gmail.com' into field email" width="1920"/>
+                <img src="398239d6fdac829c26b148136ec44c2b5fbee62e5f61cec50ae27cbbd35295aa.png" title=" Santiago enters 'santiago@gmail.com' into field email (completed)" width="1920"/>
+                <img src="398239d6fdac829c26b148136ec44c2b5fbee62e5f61cec50ae27cbbd35295aa.png" title=" Santiago enters '12345Aa.' into field password" width="1920"/>
+                <img src="510be2b97f665e508c31a61c6b068fa369ca2c8c699b246e49f8e54daac50448.png" title=" Santiago enters '12345Aa.' into field password (completed)" width="1920"/>
+                <img src="510be2b97f665e508c31a61c6b068fa369ca2c8c699b246e49f8e54daac50448.png" title=" Santiago enters '12345Aa.' into field confirm password" width="1920"/>
+                <img src="277fdc4ef80b4ce9b788824ad9c4a08084a7667f9235f2b0d16bf5e1d0e61c79.png" title=" Santiago enters '12345Aa.' into field confirm password (completed)" width="1920"/>
+                <img src="277fdc4ef80b4ce9b788824ad9c4a08084a7667f9235f2b0d16bf5e1d0e61c79.png" title=" Santiago enters '' into field firstname" width="1920"/>
+                <img src="731547f287644e9d64c5ea8acb89d775dd2d744db27cd8b8aa8cb3c361fb8aed.png" title=" Santiago enters '' into field firstname (completed)" width="1920"/>
+                <img src="731547f287644e9d64c5ea8acb89d775dd2d744db27cd8b8aa8cb3c361fb8aed.png" title=" Santiago enters '' into field lastname" width="1920"/>
+                <img src="175f315f7aea7e6b8228b1f6418c893869a76090ec5d2901c53743b349fc2e0e.png" title=" Santiago enters '' into field lastname (completed)" width="1920"/>
+                <img src="175f315f7aea7e6b8228b1f6418c893869a76090ec5d2901c53743b349fc2e0e.png" title=" Santiago enters '555 55 55' into field phone" width="1920"/>
+                <img src="8efe1ed6958dd73b6aca1ac8578325e8f81f15714edcee67d98d34bf786c8865.png" title=" Santiago enters '555 55 55' into field phone (completed)" width="1920"/>
+                <img src="8efe1ed6958dd73b6aca1ac8578325e8f81f15714edcee67d98d34bf786c8865.png" title=" Santiago select Denmark on field country" width="1920"/>
+                <img src="53d859a748a046b1f5aad52aedf5f55da02403bb66bf00f1944f77fc7b49618a.png" title=" Santiago select Denmark on field country (completed)" width="1920"/>
+                <img src="53d859a748a046b1f5aad52aedf5f55da02403bb66bf00f1944f77fc7b49618a.png" title=" Santiago enters 'Medellin' into field city" width="1920"/>
+                <img src="c9982aabe4307ceb0478bf50f1abfd63f775b0960c9947496d6e881108bbc8cd.png" title=" Santiago enters 'Medellin' into field city (completed)" width="1920"/>
+                <img src="c9982aabe4307ceb0478bf50f1abfd63f775b0960c9947496d6e881108bbc8cd.png" title=" Santiago enters 'cra 27' into field address" width="1920"/>
+                <img src="601686d0c2632b61b159e5148bb414cb152135e59b19256190987c7cb8902eaa.png" title=" Santiago enters 'cra 27' into field address (completed)" width="1920"/>
+                <img src="601686d0c2632b61b159e5148bb414cb152135e59b19256190987c7cb8902eaa.png" title=" Santiago enters 'oeste' into field region" width="1920"/>
+                <img src="7320d0c141e9f08aa5e7e536c914bdee094192275aa11fa9a0da852fb5315305.png" title=" Santiago enters 'oeste' into field region (completed)" width="1920"/>
+                <img src="7320d0c141e9f08aa5e7e536c914bdee094192275aa11fa9a0da852fb5315305.png" title=" Santiago enters '12345' into field code" width="1920"/>
+                <img src="6bc1824327ea41cf000dacaf18184f40d410110cc47ae65ea1eb2db9555caf68.png" title=" Santiago enters '12345' into field code (completed)" width="1920"/>
+                <img src="6bc1824327ea41cf000dacaf18184f40d410110cc47ae65ea1eb2db9555caf68.png" title=" Santiago clicks on check for conditions" width="1920"/>
+                <img src="7877dcf64d804e9c60a27632c320c843b6957df88077347e8b42ecb1a4dfab3a.png" title=" Santiago clicks on check for conditions (completed)" width="1920"/>
+                <img src="7877dcf64d804e9c60a27632c320c843b6957df88077347e8b42ecb1a4dfab3a.png" title=" Santiago enters information (completed)" width="1920"/>
+                <img src="7877dcf64d804e9c60a27632c320c843b6957df88077347e8b42ecb1a4dfab3a.png" title=" When the user enters its information
+| username | email | password | confirmPassword | firstName | lastName | phone | country | city | address | region | code |
+| Santi | santiago@gmail.com | 12345Aa. | 12345Aa. |  |  | 555 55 55 | Denmark | Medellin | cra 27 | oeste | 12345 | (completed)" width="1920"/>
+                <img src="7877dcf64d804e9c60a27632c320c843b6957df88077347e8b42ecb1a4dfab3a.png" title=" Then the user will watch the register button disabled" width="1920"/>
+                <img src="7877dcf64d804e9c60a27632c320c843b6957df88077347e8b42ecb1a4dfab3a.png" title=" Then validate state button should be (false)" width="1920"/>
+                <img src="ee5e538e3970bb168a73ab0ee5298738a36ed75314683cbad8118ec268e3cbcf.png" title=" Then validate state button should be (false) (completed)" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Example #3: {username=Santi, email=santiago@gmail.com, password=12345Aa., confirmPassword=12345Aa., firstName=Santi, lastName=Gomez, phone=555 55 55, country=Denmark, city=Medellin, address=, region=oeste, code=12345}" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Given the user is on the main page" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Santiago opens the https://www.advantageonlineshopping.com/#/" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Given the user is on the main page (completed)" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" And the user goes to the register form" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Santiago access form" width="1920"/>
+                <img src="aafa2f5bedcbeb7b1ecf525c43e42a72436748ce8f3fd3a7a1c6361046775999.png" title=" Santiago clicks on login button" width="1920"/>
+                <img src="900ffb7c653261eafdd241c4e28cecbaa1d1aee78a47a1061622d3634195718c.png" title=" Santiago clicks on login button (completed)" width="1920"/>
+                <img src="18a55994f904ff292ce46b02c5cdc434a3e7d4bce575fcea895b2146e48ad358.png" title=" Santiago clicks on create account button" width="1920"/>
+                <img src="235e9f45867a6fc03612f9f6a80f99ec4bc2e825cae7e63c67a1a28d51caa49d.png" title=" Santiago clicks on create account button (completed)" width="1920"/>
+                <img src="235e9f45867a6fc03612f9f6a80f99ec4bc2e825cae7e63c67a1a28d51caa49d.png" title=" Santiago access form (completed)" width="1920"/>
+                <img src="235e9f45867a6fc03612f9f6a80f99ec4bc2e825cae7e63c67a1a28d51caa49d.png" title=" And the user goes to the register form (completed)" width="1920"/>
+                <img src="235e9f45867a6fc03612f9f6a80f99ec4bc2e825cae7e63c67a1a28d51caa49d.png" title=" When the user enters its information
+| username | email | password | confirmPassword | firstName | lastName | phone | country | city | address | region | code |
+| Santi | santiago@gmail.com | 12345Aa. | 12345Aa. | Santi | Gomez | 555 55 55 | Denmark | Medellin |  | oeste | 12345 |" width="1920"/>
+                <img src="235e9f45867a6fc03612f9f6a80f99ec4bc2e825cae7e63c67a1a28d51caa49d.png" title=" Santiago enters information" width="1920"/>
+                <img src="235e9f45867a6fc03612f9f6a80f99ec4bc2e825cae7e63c67a1a28d51caa49d.png" title=" Santiago enters 'Santi' into username field" width="1920"/>
+                <img src="5cddbb9d47bc037e979a6267e32bff9eaf3b8e9a53cab7f05b68885e99d35480.png" title=" Santiago enters 'Santi' into username field (completed)" width="1920"/>
+                <img src="5cddbb9d47bc037e979a6267e32bff9eaf3b8e9a53cab7f05b68885e99d35480.png" title=" Santiago enters 'santiago@gmail.com' into field email" width="1920"/>
+                <img src="851101c95e73d565d62985379624ee51589118e267a6fe4b5d0465ed55ca0116.png" title=" Santiago enters 'santiago@gmail.com' into field email (completed)" width="1920"/>
+                <img src="851101c95e73d565d62985379624ee51589118e267a6fe4b5d0465ed55ca0116.png" title=" Santiago enters '12345Aa.' into field password" width="1920"/>
+                <img src="32cc9d89695966c1136e293b88dec872d610b4b382729b689914f82b79168611.png" title=" Santiago enters '12345Aa.' into field password (completed)" width="1920"/>
+                <img src="32cc9d89695966c1136e293b88dec872d610b4b382729b689914f82b79168611.png" title=" Santiago enters '12345Aa.' into field confirm password" width="1920"/>
+                <img src="43af63760df5409494286a89ba1facf321af9e2173a95003020ad5033cc53042.png" title=" Santiago enters '12345Aa.' into field confirm password (completed)" width="1920"/>
+                <img src="43af63760df5409494286a89ba1facf321af9e2173a95003020ad5033cc53042.png" title=" Santiago enters 'Santi' into field firstname" width="1920"/>
+                <img src="405aef8fcfacd1e55edf875f82e135e1ec1638f5b96527f7fafcaf69c7752047.png" title=" Santiago enters 'Santi' into field firstname (completed)" width="1920"/>
+                <img src="405aef8fcfacd1e55edf875f82e135e1ec1638f5b96527f7fafcaf69c7752047.png" title=" Santiago enters 'Gomez' into field lastname" width="1920"/>
+                <img src="a6062570906ac9e705349cc9952cfc79795fef0541719430c8fad0dc5d801c6f.png" title=" Santiago enters 'Gomez' into field lastname (completed)" width="1920"/>
+                <img src="a6062570906ac9e705349cc9952cfc79795fef0541719430c8fad0dc5d801c6f.png" title=" Santiago enters '555 55 55' into field phone" width="1920"/>
+                <img src="d4bde148e5a83eab5652b50588ef7298fb20ae5b1ad7ba2c6252ba3e94829794.png" title=" Santiago enters '555 55 55' into field phone (completed)" width="1920"/>
+                <img src="d4bde148e5a83eab5652b50588ef7298fb20ae5b1ad7ba2c6252ba3e94829794.png" title=" Santiago select Denmark on field country" width="1920"/>
+                <img src="8b513e4010dad711e3200699099797f86cb2ba39b8cc6480e5585c42e5718738.png" title=" Santiago select Denmark on field country (completed)" width="1920"/>
+                <img src="8b513e4010dad711e3200699099797f86cb2ba39b8cc6480e5585c42e5718738.png" title=" Santiago enters 'Medellin' into field city" width="1920"/>
+                <img src="91ea8052ddef85622f74073b5a6bc0b722ddd08dd9a5141652251dfa71d639a1.png" title=" Santiago enters 'Medellin' into field city (completed)" width="1920"/>
+                <img src="91ea8052ddef85622f74073b5a6bc0b722ddd08dd9a5141652251dfa71d639a1.png" title=" Santiago enters '' into field address" width="1920"/>
+                <img src="39c2e48f252faaa3f3f160680e23aba564d94aeadb848182bd344089549096ee.png" title=" Santiago enters '' into field address (completed)" width="1920"/>
+                <img src="39c2e48f252faaa3f3f160680e23aba564d94aeadb848182bd344089549096ee.png" title=" Santiago enters 'oeste' into field region" width="1920"/>
+                <img src="769f9d299264cef4dc5d6a50bbdc025186a8aeca296fa5fe8d1fef83240d9b15.png" title=" Santiago enters 'oeste' into field region (completed)" width="1920"/>
+                <img src="769f9d299264cef4dc5d6a50bbdc025186a8aeca296fa5fe8d1fef83240d9b15.png" title=" Santiago enters '12345' into field code" width="1920"/>
+                <img src="48182f582a2eb2c99e53da6ec881acbe740040f86afa4e5cc0fcab8bb964288c.png" title=" Santiago enters '12345' into field code (completed)" width="1920"/>
+                <img src="48182f582a2eb2c99e53da6ec881acbe740040f86afa4e5cc0fcab8bb964288c.png" title=" Santiago clicks on check for conditions" width="1920"/>
+                <img src="f6495ef90a6f91e6da2c2a05fcc306706975a2925f6acf17c2bbad70e21b5ef1.png" title=" Santiago clicks on check for conditions (completed)" width="1920"/>
+                <img src="f6495ef90a6f91e6da2c2a05fcc306706975a2925f6acf17c2bbad70e21b5ef1.png" title=" Santiago enters information (completed)" width="1920"/>
+                <img src="f6495ef90a6f91e6da2c2a05fcc306706975a2925f6acf17c2bbad70e21b5ef1.png" title=" When the user enters its information
+| username | email | password | confirmPassword | firstName | lastName | phone | country | city | address | region | code |
+| Santi | santiago@gmail.com | 12345Aa. | 12345Aa. | Santi | Gomez | 555 55 55 | Denmark | Medellin |  | oeste | 12345 | (completed)" width="1920"/>
+                <img src="f6495ef90a6f91e6da2c2a05fcc306706975a2925f6acf17c2bbad70e21b5ef1.png" title=" Then the user will watch the register button disabled" width="1920"/>
+                <img src="f6495ef90a6f91e6da2c2a05fcc306706975a2925f6acf17c2bbad70e21b5ef1.png" title=" Then validate state button should be (false)" width="1920"/>
+                <img src="f6495ef90a6f91e6da2c2a05fcc306706975a2925f6acf17c2bbad70e21b5ef1.png" title=" Then validate state button should be (false) (completed): <span class='failing-color'>FAILURE</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.52</span>
+</div>
+</body>
+</html>

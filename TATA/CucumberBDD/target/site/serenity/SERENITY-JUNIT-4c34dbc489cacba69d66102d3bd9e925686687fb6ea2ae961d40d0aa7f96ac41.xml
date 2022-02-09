@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Yo como usuario deseo crear una cuenta a traves de un formulario en advantage" skipped="0" tests="1" time="11.72" timestamp="2021-10-21 09:10:15"><testcase name="Validacion  campo email"><failure message="expected:&lt;[el email es requerido]&gt; but was:&lt;[Email field is required]&gt;" type="java.lang.AssertionError">expected:&lt;[el email es requerido]&gt; but was:&lt;[Email field is required]&gt;</failure><system-err>expected:&lt;[el email es requerido]&gt; but was:&lt;[Email field is required]&gt;&#13;
+stepdefinitions.CrearCuentaStepDefinitions.veraElMensajeDelCampoEmail(CrearCuentaStepDefinitions.java:91)&#13;
+✽.vera el mensaje del campo email(src/test/resources/features/crear_cuenta.feature:18)&#13;
+</system-err></testcase></testsuite>

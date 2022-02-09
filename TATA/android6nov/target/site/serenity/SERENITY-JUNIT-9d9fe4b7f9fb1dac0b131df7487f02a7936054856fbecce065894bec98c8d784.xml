@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="as a user I want to make a purchase on eribank app" skipped="0" tests="1" time="22.01" timestamp="2021-11-18 02:26:09"><testcase name="filling data and validating button"><failure message="&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;</failure><system-err>
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;&#13;
+co.com.certification.android6nov.stepdefinitions.PurchaseStepDefinitions.userValidateSendButtonInactive(PurchaseStepDefinitions.java:60)&#13;
+✽.user validate send button inactive(src/test/resources/features/purchase.feature:45)&#13;
+</system-err></testcase></testsuite>

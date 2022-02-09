@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="As a user of the service, I need to consult the fields of the service" skipped="0" tests="5" time="3.86" timestamp="2021-11-10 03:44:50"><testcase name="Smoke Test"/><testcase name="Consult year"><failure message="&#10;Expected: &lt;328239525&gt;&#10;     but: was &lt;328239523&gt;" type="java.lang.AssertionError">
+Expected: &lt;328239525&gt;
+     but: was &lt;328239523&gt;</failure><system-err>
+Expected: &lt;328239525&gt;
+     but: was &lt;328239523&gt;&#13;
+co.com.tcs.certification.datausa.stepdefinitions.DataUsaStepDefinitions.theUserWillSeeTheCodePopulation(DataUsaStepDefinitions.java:40)&#13;
+✽.the user will see the code Population 328239525(src/test/resources/features/data_usa.feature:24)&#13;
+</system-err></testcase><testcase name="Consult year equal ID"/><testcase name="Consult code population"><failure message="&#10;Expected: &quot;0100U&quot;&#10;     but: was &quot;01000US&quot;" type="java.lang.AssertionError">
+Expected: "0100U"
+     but: was "01000US"</failure><system-err>
+Expected: "0100U"
+     but: was "01000US"&#13;
+co.com.tcs.certification.datausa.stepdefinitions.DataUsaStepDefinitions.theUserWillSeeTheIDNation(DataUsaStepDefinitions.java:50)&#13;
+✽.the user will see the ID Nation 0100U(src/test/resources/features/data_usa.feature:40)&#13;
+</system-err></testcase><testcase name="New register"><failure message="&#10;Expected: &lt;201&gt;&#10;     but: was &lt;301&gt;" type="java.lang.AssertionError">
+Expected: &lt;201&gt;
+     but: was &lt;301&gt;</failure><system-err>
+Expected: &lt;201&gt;
+     but: was &lt;301&gt;&#13;
+co.com.tcs.certification.datausa.stepdefinitions.DataUsaStepDefinitions.theUserWillSeeTheirCodeRegistrationCreatedSuccessfully(DataUsaStepDefinitions.java:60)&#13;
+✽.the user will see their code registration created successfully 201(src/test/resources/features/data_usa.feature:47)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,23 @@
+Usuarios
+1.Crear usuario --- LISTO
+2.Validar correo y contraseña (averiguar)
+3.Actualizar usuario--- LISTO
+4.Consultar usuarios ---- LISTO
+5.Aprobar estado usuario---- LISTO
+6.Consulta filtrada de estudiantes (lider)
+7.Actualizar estado (lider)
+
+Proyectos
+8.Consultar proyectos (lider, estudiante) --- CREO QUE LISTO
+9.Actualizar estado y fase proyectos -----FELIPE
+10.Crear proyecto (lider) ----FELIPE
+11.Consultar proyectos (lider, estudiante)
+12.Actualizar proyectos por lider FELIPE
+13.Consultar inscripciones pendientes (lider)---- FELIPE
+14.Actualizar estado inscripciones (lider) ---FELIPE
+15.Consultar en detalle cada proyecto (lider, estudiante)
+16.Crear inscripcion (estudiante) ---FELIPE
+17.Crear avances (estudiante)
+18.Actualizar avances (estudiante)
+19.Aprobar inscirpciòn ---- LISTO
+

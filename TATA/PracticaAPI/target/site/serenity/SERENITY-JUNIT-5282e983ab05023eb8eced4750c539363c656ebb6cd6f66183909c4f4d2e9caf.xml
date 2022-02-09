@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="I as a user need to consume an api" skipped="0" tests="1" time="4.0" timestamp="2021-11-05 12:08:07"><testcase name="create register"><failure message="&#10;Expected: &lt;200&gt;&#10;     but: was &lt;201&gt;" type="java.lang.AssertionError">
+Expected: &lt;200&gt;
+     but: was &lt;201&gt;</failure><system-err>
+Expected: &lt;200&gt;
+     but: was &lt;201&gt;&#13;
+co.com.tcs.certification.api.stepdefinitions.ApiTestStepDefinitions.theUserWillSeeTheResponseCode(ApiTestStepDefinitions.java:50)&#13;
+✽.the user will see the response code 200(src/test/resources/features/api_consumption.feature:21)&#13;
+</system-err></testcase></testsuite>
